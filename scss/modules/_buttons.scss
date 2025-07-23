@@ -1,0 +1,8 @@
+.btn-white {
+  @include button-variant($white, $white, $active-background: darken($white, 7.5%), $active-border: darken($white, 10%));
+  color: $gray-500;
+  &:hover {
+    color: $gray-500;
+    text-decoration: none;
+  }
+}
